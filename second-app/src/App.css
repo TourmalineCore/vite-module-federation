@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+.content {
+  line-height: 1.1;
+  text-align: left;
+  flex-grow: 1; 
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.content h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
