@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-existing-dockerfile
+{
+	"name": "Node",
+	"image": "node:23.4-alpine3.21",
+	"runArgs": [
+		"--network=host"
+	],
+	"containerEnv": {
+		// https://stackoverflow.com/questions/76555858/how-to-run-cypress-in-interactive-mode-in-a-devcontainer-on-windows-with-docker
+		"CHOKIDAR_USEPOLLING": "true"
+	}
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "cat /etc/os-release",
+	// Configure tool-specific properties.
+	// "customizations": {},
+	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "devcontainer"
+}
