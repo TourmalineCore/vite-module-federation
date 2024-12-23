@@ -1,7 +1,6 @@
 import './App.css'
 import { lazy, Suspense } from 'react';
 
-
 // dynamic import
 // const Sidebar = React.lazy(() => import('sidebar_app/button'))
 
